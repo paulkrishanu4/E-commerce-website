@@ -9,7 +9,7 @@ var cors = require('cors');
 const app=express();
 
 var corsOptions = {
-  origin: 'http://localhost:5173',
+  origin: 'https://e-commerce-website-frontend-njio.onrender.com',
   methods:"GET,POST,PATCH,PUT,DELETE,HEAD",
   credentials: true,
 }
