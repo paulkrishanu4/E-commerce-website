@@ -36,7 +36,7 @@ export const Checkoutpopup = ({setDisplay}) => {
 
   const handleSubmit = async(e)=>{
     console.log(orderlist);
-    const response = await fetch("http://localhost:5000/cart",{
+    const response = await fetch("https://e-commerce-website-backend-93ax.onrender.com/cart",{
       method: "POST",
       headers:{
         "Content-Type": "application/json",
