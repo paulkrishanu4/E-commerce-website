@@ -29,7 +29,7 @@ const Signup = () => {
     if(!name || !email || !password){
       alert("Fill all inputs");
     }else{
-    const response = await fetch("http://localhost:5000/signup",{
+    const response = await fetch("https://e-commerce-website-backend-93ax.onrender.com/signup",{
       method: "POST",
       headers:{
         "Content-Type": "application/json",
