@@ -1,0 +1,35 @@
+.big{
+  font-size:max(3.4vw,25px);
+}
+.menu{
+  font-size:max(1.4vw,10px);
+  margin-left: 30px;
+  cursor:pointer;
+}
+.txt-d{
+  text-decoration: none;
+  color:white;
+}
+.activee{
+  border-bottom: 3px solid white;
+  color:white;
+  
+}
+.dot{
+  color:red;
+}
+@media(width>990px){
+  .position{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+  }
+}
+@media(width<990px){
+  .activee{
+    border-bottom: 3px solid white;
+    width:70px;
+    text-align: center;
+  }
+
+}

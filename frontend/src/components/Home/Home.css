@@ -1,0 +1,48 @@
+
+.slide2{
+  width:65%;
+  margin:10px;
+}
+.slide3{
+  width:30%;
+  margin: 10px;
+}
+
+
+.img-b{
+ border: 2px solid orangered;
+}
+.home-display-products{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.home-display-products img{
+  height:320px;
+}
+@media(width<400px){
+  .slide1 img{
+    height:150px;
+  }
+  .cur-style{
+    display: flex;
+    flex-direction: column;
+  }
+  .slide2{
+    width:100%;
+  }
+  .slide3{
+    width:100%;
+  }
+  .slide2{
+    width:100%;
+    margin: 0px;
+    margin-top: 5px;
+  }
+  .slide3{
+    width:100%;
+    margin: 0px;;
+    margin-top: 5px;
+  }
+
+}

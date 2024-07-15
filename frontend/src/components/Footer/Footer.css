@@ -1,0 +1,13 @@
+.footer{
+  height:200px;
+  background: black;
+  color:white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+}
+#icon{
+  margin:10px;
+}

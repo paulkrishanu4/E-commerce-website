@@ -1,0 +1,35 @@
+.parent{
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.parent form{
+  width:50%;
+}
+.parent input, textarea{
+  height:40px;
+  width: 100%;
+  margin-bottom: 20px;
+  font-size: max(1.2vw);
+  outline: none;
+}
+.parent label{
+  font-size:20px;
+}
+textarea{
+  height:150px;
+}
+.parent button{
+  height:60px;
+  width:max(10%,100px);
+  cursor:pointer;
+  transition:0.3s;
+}
+.parent button:hover{
+  background-color:black;
+  color:white;
+  transition:0.3s;
+}
+
