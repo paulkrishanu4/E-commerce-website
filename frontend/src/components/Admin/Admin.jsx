@@ -6,7 +6,7 @@ const Admin = () => {
   const[items,setItems] = useState([]);
 
   useEffect(()=>{
-    axios.get("http://localhost:5000/admin")
+    axios.get("https://e-commerce-website-backend-93ax.onrender.com/admin")
     .then((response)=>{
       setItems(response.data);
 
